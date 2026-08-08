@@ -48,6 +48,11 @@ The 10-pin header brings out power rails and standard GPIO lines for compact har
 
 ---
 
+## AI usage declaration
+This project uses AI only in writing of the [README.md](https://github.com/purpletue/TinyLilFucker/blob/main/README.md) file. 
+
+---
+
 ## License
 
 This project is open-source hardware licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](https://github.com/purpletue/TinyLilFucker/blob/main/LICENSE) file for the full license text.
