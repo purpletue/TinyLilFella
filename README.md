@@ -11,8 +11,8 @@ Part of **Hack Club Stardance**.
 | Feature | Details |
 | --- | --- |
 | **Microcontroller** | STM32C071 (Arm Cortex-M0+, up to 48 MHz) |
-| **Form Factor** | Exact width of a USB-C connector |
-| **Input Voltage** | 5V via USB-C / VBUS pin |
+| **Form Factor** | Dongle-sized |
+| **Input Voltage** | 5V via USB-A / VBUS pin |
 | **Logic Level** | 3.3V (Onboard LDO regulator) |
 | **Pin Count** | 10 pins total (6 GPIO, 2x GND, 1x 3.3V, 1x 5V/VBUS) |
 | **Onboard Controls** | Tactile Reset Pushbutton |
@@ -27,22 +27,22 @@ The 10-pin header brings out power rails and standard GPIO lines for compact har
 | Pin | Function | Type | Description |
 | --- | --- | --- | --- |
 | **1** | `GND` | Power | System Ground |
-| **2** | `3V3` | Power | Regulated 3.3V Output |
-| **3** | `5V` / `VBUS` | Power | USB Power Input / 5V Bus |
-| **4** | `GPIO 1` | I/O | General Purpose I/O (e.g., PA0) |
-| **5** | `GPIO 2` | I/O | General Purpose I/O (e.g., PA1) |
-| **6** | `GPIO 3` | I/O | General Purpose I/O (e.g., PA2) |
-| **7** | `GPIO 4` | I/O | General Purpose I/O (e.g., PA3) |
-| **8** | `GPIO 5` | I/O | General Purpose I/O (e.g., PA4) |
-| **9** | `GPIO 6` | I/O | General Purpose I/O (e.g., PA5) |
-| **10** | `GND` | Power | System Ground |
+| **2** | `GND` | Power | System Ground |
+| **3** | `3V3` | Power | Regulated 3.3V Output |
+| **4** | `5v / VBUS` | Power | USB Power Input / 5V Bus |
+| **5** | `GPIO 1` | I/O | General Purpose I/O (PA0) |
+| **6** | `GPIO 2` | I/O | General Purpose I/O (PA1) |
+| **7** | `GPIO 3` | I/O | General Purpose I/O (PA2) |
+| **8** | `GPIO 4` | I/O | General Purpose I/O (PA3) |
+| **9** | `GPIO 5` | I/O | General Purpose I/O (PA4) |
+| **10** | `GPIO 6` | I/O | General Purpose I/O (PA5) |
 
 ---
 
 ## Hardware Overview
 
-* **USB-C Form Factor:** Dimensions matched directly to a USB-C port outline to serve as a tiny embedded target or inline dongle.
-* **Power Management:** Runs off standard 5V VBUS directly from the USB-C connector with an onboard 3.3V regulator to power the MCU and external low-power sensors.
+* **Dongle Form-factor:** Sized like your average dongle.
+* **Power Management:** Runs off standard 5V VBUS directly from the USB-A connector with an onboard 3.3V regulator to power the MCU and external low-power sensors.
 * **RGB LED:** Common-anode or common-cathode RGB LED routed to MCU PWM-capable pins for status signaling.
 * **Reset Circuitry:** Dedicated hardware reset button driving the `NRST` line low to cycle execution cleanly.
 
