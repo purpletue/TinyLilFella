@@ -87,6 +87,62 @@
 			(outputdirectory "Gerbers/")
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "23e03dc7-ccaa-4554-a915-641a06d7742a")
+		(at 41 12)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "1d2d9f1a-2048-4c95-99d5-1e85896f798d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "db8cf182-2632-4125-905f-8fbbc3ab02fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3461a1b-589e-4155-88cd-436c79c49fd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "675fa226-5712-4795-af99-b81cca557d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.1 2.1)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "86870a93-9c3a-474f-a158-07ec2b411f69")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "33e6dfa0-144a-4b95-b42b-37c043ef4dba")
@@ -1028,6 +1084,62 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "9fc72ad6-e69e-4472-a2b6-b633d9073c57")
+		(at 66.5 12)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "3257b038-f849-4bce-83b5-432d82ae51e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7bcaf5ba-34b3-48fe-a1e7-72c900093072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a51a8da-0103-4194-8735-ff7292b97ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1795f6f1-b3ad-4cdf-b1e2-eec008717888")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.1 2.1)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ed974bb4-d479-466e-a6dc-5615b6271b9c")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
 		(layer "F.Cu")
 		(uuid "a88dc0f7-d0c1-41f0-bdb0-91c90e3cdb08")
@@ -1797,6 +1909,62 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "e8860ed9-31ed-48b0-bfa1-68b104357761")
+		(at 66.5 26.5)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "af74affb-1b7d-4039-86f7-23490e205d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ab302c08-77fc-48f2-bbf1-ebb958ad8b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "160ac1ea-1c5d-487f-810c-8dd4c277921b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6497f10-5954-4dfe-9baf-65b7fcec0248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.1 2.1)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "01a883a5-d447-42a8-9347-0299ca5872e1")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Connector_USB:USB_A_Connfly_DS1098_Horizontal"
 		(layer "B.Cu")
