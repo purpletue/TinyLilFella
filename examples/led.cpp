@@ -1,9 +1,9 @@
 #include <Arduino.h>
 // A basic firmware detailing the RGB LED pins of the microcontroller.
-// PA5 is blue, PA6 is green, and PA7 is red!
-#define BLUE PA5
-#define GREEN PA6
-#define RED PA7
+// PC51 is blue, PB3 is green, and PB7 is red!
+#define BLUE PC15
+#define GREEN PB3
+#define RED PB7
 void setup() {
   pinMode(BLUE, OUTPUT);
   pinMode(GREEN, OUTPUT);
