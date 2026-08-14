@@ -39,6 +39,7 @@ The name is fully deserved. It packs power, an RGB LED, and 6 breakout GPIO line
 * root - where [LICENSE](https://github.com/purpletue/TinyLilFella/blob/main/LICENSE) and this document live.
 * root/files - where the main files are. like the [project file](https://github.com/purpletue/TinyLilFella/blob/main/files/TinyLilFucker.kicad_pro), [schematic](https://github.com/purpletue/TinyLilFella/blob/main/files/TinyLilFucker.kicad_sch), and [PCB file](https://github.com/purpletue/TinyLilFella/blob/main/files/TinyLilFucker.kicad_pcb) are.
 * root/files/production - where the files necessary for production of the PCB are, such as [gerbers.zip](https://github.com/purpletue/TinyLilFella/blob/main/files/production/gerbers.zip) and the [Bill of Materials](https://github.com/purpletue/TinyLilFella/blob/main/files/production/BOM.csv) live.
+* root/examples - where code examples such as [LED showcase](https://github.com/purpletue/TinyLilFella/blob/main/examples/led.cpp) are.
 
 ## How It Works:
 
