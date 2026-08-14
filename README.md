@@ -100,3 +100,6 @@ Want to make it better? Open a PR, suggest a feature, or just yell at me on GitH
 ## License & Disclaimer
 
 This project is open-source hardware licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Powered 100% by **vibes**. If it breaks, short-circuits, or opens a micro black hole, **that’s on you.**
+
+### just saying,
+This project used to be called "TinyLilFucker", so some of the file names keep that name. PLEASE IGNORE IT PLEASE
