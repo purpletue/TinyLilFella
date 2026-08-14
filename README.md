@@ -65,7 +65,7 @@ Built for **Hack Club Stardance**! I wanted to see how far I could shrink down a
 | **Logic Level** | 3.3V (Onboard LDO regulator) |
 | **Pin Count** | 10 pins total (6 GPIO, 2x GND, 1x 3.3V, 1x 5V/VBUS) |
 | **Onboard Controls** | Tactile Reset Pushbutton |
-| **Indicators** | Onboard RGB LED |
+| **Indicators** | Onboard RGB LED for programming + an extra power indicator. |
 
 ---
 
