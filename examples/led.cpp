@@ -8,8 +8,7 @@ void setup() {
   pinMode(BLUE, OUTPUT);
   pinMode(GREEN, OUTPUT);
   pinMode(RED, OUTPUT);
-}
-void loop() {
+} void loop() {
   digitalWrite(RED, HIGH);
   digitalWrite(BLUE, LOW);
   delay(500);
