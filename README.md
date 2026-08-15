@@ -84,6 +84,8 @@ Built for **Hack Club Stardance**! I wanted to see how far I could shrink down a
 | **9** | `GPIO 5` | I/O | General Purpose I/O (PA4) |
 | **10** | `GPIO 6` | I/O | General Purpose I/O (PA5) |
 
+* Pins PC51 (Blue), PB3 (Green), and PB7 (Red) are used for the onboard LED.
+
 ---
 
 ## AI Usage Declaration
