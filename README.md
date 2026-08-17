@@ -31,6 +31,7 @@ The name is fully deserved. It packs power, an RGB LED, and 6 breakout GPIO line
 * **Onboard RGB LED** – Connected to PWM-capable pins for status/vibes.
 * **10-Pin Header Breakout** – Power rails and 6 general-purpose GPIOs for compact integration.
 * **Bootloader button** - The way to program the board.
+* **Programmable button** - Just a simple button sitting at PA6, you can program it to do anything!
 
 ---
 
