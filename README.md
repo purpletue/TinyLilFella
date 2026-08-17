@@ -52,7 +52,7 @@ The 10-pin header brings out 6 direct GPIO lines (`PA0` through `PA5`) alongside
 
 ## Why?
 
-Built for **Hack Club Stardance**! I wanted to see how far I could shrink down a functional, highly integrated ARM Cortex dev board into a minimal 0.75 cm³ footprint.
+Built for **Hack Club Stardance**! I wanted to see how far I could shrink down a functional, highly integrated ARM Cortex dev board into a minimal 1.5 cm³ footprint.
 
 ---
 
