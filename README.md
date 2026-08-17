@@ -23,8 +23,6 @@ An absolutely microscopic (metaphorically... and literally, being under 0.8 cm³
 
 The name is fully deserved. It packs power, an RGB LED, and 6 breakout GPIO lines into a tiny USB dongle form factor!
 
-> **P.S. To the Stardance Reviewer:** Please grant assembly (PCBA)! Everything is SMD and I physically cannot hand-solder that many tiny components on a board smaller than a single cubic centimeter without going blind.
-
 ### Features:
 
 * **STM32C071 Microcontroller** – Arm Cortex-M0+ running up to 48 MHz.
@@ -32,6 +30,7 @@ The name is fully deserved. It packs power, an RGB LED, and 6 breakout GPIO line
 * **Tactile Reset Button** – Dedicated hardware reset driving `NRST` low.
 * **Onboard RGB LED** – Connected to PWM-capable pins for status/vibes.
 * **10-Pin Header Breakout** – Power rails and 6 general-purpose GPIOs for compact integration.
+* **Bootloader button** - The way to program the board.
 
 ---
 
